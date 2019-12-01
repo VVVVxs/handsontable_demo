@@ -11,35 +11,15 @@ class App extends React.Component {
   }
   componentDidMount() {
     const data = [
-      { riqi: '2017-01', address: '北京', goods: '冰箱', price: '3399', sales: 530, del: '' },
-      { riqi: '2017-01', address: '天津', goods: '空调', price: '4299', sales: 522, del: '' },
-      { riqi: '2017-01', address: '上海', goods: '洗衣机', price: '1299', sales: 544, del: '' },
-      { riqi: '2017-01', address: '广州', goods: '彩电', price: '4599', sales: 562, del: '' },
-      { riqi: '2017-01', address: '深圳', goods: '热水器', price: '1099', sales: 430, del: '' },
-      { riqi: '2017-02', address: '重庆', goods: '笔记本电脑', price: '4999', sales: 666, del: '' },
-      { riqi: '2017-02', address: '厦门', goods: '油烟机', price: '2899', sales: 438, del: '' },
-      { riqi: '2017-02', address: '青岛', goods: '饮水机', price: '899', sales: 620, del: '' },
-      { riqi: '2017-02', address: '青岛', goods: '饮水机', price: '899', sales: 620, del: '' },
-      { riqi: '2017-02', address: '青岛', goods: '饮水机', price: '899', sales: 620, del: '' },
-      { riqi: '2017-02', address: '青岛', goods: '饮水机', price: '899', sales: 620, del: '' },
-      { riqi: '2017-02', address: '青岛', goods: '饮水机', price: '899', sales: 620, del: '' },
-      { riqi: '2017-02', address: '大连', goods: '手机', price: '1999', sales: 500, del: '' },
-      { riqi: '2017-02', address: '大连', goods: '手机', price: '1999', sales: 500, del: '' },
-      { riqi: '2017-02', address: '大连', goods: '手机', price: '1999', sales: 500, del: '' },
-      { riqi: '2017-02', address: '大连', goods: '手机', price: '1999', sales: 500, del: '' },
-      { riqi: '2017-02', address: '大连', goods: '手机', price: '1999', sales: 500, del: '' },
-      { riqi: '2017-02', address: '大连', goods: '手机', price: '1999', sales: 500, del: '' },
-      { riqi: '2017-02', address: '大连', goods: '手机', price: '1999', sales: 500, del: '' },
-      { riqi: '2017-02', address: '大连', goods: '手机', price: '1999', sales: 500, del: '' },
-      { riqi: '2017-02', address: '大连', goods: '手机', price: '1999', sales: 500, del: '' },
-      { riqi: '2017-02', address: '大连', goods: '手机', price: '1999', sales: 500, del: '' },
-      { riqi: '2017-02', address: '大连', goods: '手机', price: '1999', sales: 500, del: '' },
-    ];
-    const newData = [
-      { id: 1, name: { first: "Ted", last: "Right", three: 'heihei' }, address: "" },
-      { id: 2, address: "" }, // HOT will create missing properties on demand
-      { id: 3, name: { first: "Joan", last: "Well" }, address: "" }
-    ]
+		{riqi:'2019-06-07',address: '北京', goods:'冰箱',price: '3399',sales: 530},
+		{riqi:'2019-06-07', address:'天津',goods: '空调', price:'4299',sales: 522},
+		{riqi:'2019-06-07',address: '上海',goods: '洗衣机',price: '1299',sales: 544},
+		{riqi:'2019-06-07', address:'广州',goods: '彩电',price: '4599',sales: 562},
+		{riqi:'2019-06-07', address:'深圳', goods:'热水器', price:'1099',sales: 430},
+		{riqi:'2019-06-07',address: '重庆',goods: '笔记本电脑',price: '4999',sales: 666},
+		{riqi:'2019-06-07', address:'厦门',goods: '油烟机',price: '2899',sales: 438}
+	];
+
     this.hotInstance = new Handsontable(this.hotContainer.current, {
       // data: newData,
       // dataSchema: { id: null, name: { first: null, last: null }, address: null },
